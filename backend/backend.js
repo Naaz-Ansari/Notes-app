@@ -28,7 +28,7 @@ mongoose.connect('mongodb+srv://naazansari172001:uKGKuH1O7KgXpd00@notes-app.a2wj
 })
 
 //Mongodb Client connection
-const uri = "mongodb+srv://naazansari172001:uKGKuH1O7KgXpd00@notes-app.a2wj4.mongodb.net/?retryWrites=true&w=majority&appName=Notes-App/test";
+const uri = "mongodb+srv://naazansari172001:uKGKuH1O7KgXpd00@notes-app.a2wj4.mongodb.net/?retryWrites=true&w=majority&appName=Notes-App";
 // const client = new MongoClient(uri);
 
 const client = new MongoClient(uri, {
