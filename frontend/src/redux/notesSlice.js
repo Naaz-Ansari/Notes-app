@@ -18,7 +18,7 @@ export const notesSlice = createSlice({
       // console.log("nm",note);
 
       axios
-        .post('http://localhost:7005/addnote', note)
+        .post('https://notes-app-2-v10w.onrender.com/addnote', note)
         .then(() => {
           toast.success('Added to notes successfully.');
         })
@@ -43,7 +43,7 @@ export const notesSlice = createSlice({
     deleteNote: (state, action) => {
       const note = action.payload;
       const id = JSON.stringify(note._id)
-      axios.delete(`http://localhost:7005/delete-note/${note._id}`)
+      axios.delete(`https://notes-app-2-v10w.onrender.com/delete-note/${note._id}`)
       .then(() => {
         toast.success('Deleted successfully.');
       })
