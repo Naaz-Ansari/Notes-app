@@ -21,7 +21,7 @@ export default function Home() {
   const dispatch = useDispatch();
 
   useEffect(() => {
-    axios.get("http://localhost:7005/get-all-notes")
+    axios.get("https://notes-app-2-v10w.onrender.com/get-all-notes")
     .then((response => {
       setNotes(response.data);
       // console.log("data", response.data);

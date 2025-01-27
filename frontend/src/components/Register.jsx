@@ -40,7 +40,7 @@ export default function Register() {
                 dob: dob
             }
             console.log("user",user)   
-            axios.post("http://localhost:7005/register",user)
+            axios.post("https://notes-app-2-v10w.onrender.com/register",user)
             .then(()=>{
                 toast.success("OPT Send");
                 localStorage.setItem("user",user.username);
@@ -54,7 +54,7 @@ export default function Register() {
         e.preventDefault();
         const userotp = {otp: otp}
         const useremail = {email:email}
-        axios.post("http://localhost:7005/verify-email",userotp)
+        axios.post("https://notes-app-2-v10w.onrender.com/verify-email",userotp)
         .then(()=>{
             toast.success("Email Verified");
             setVerified(true); 

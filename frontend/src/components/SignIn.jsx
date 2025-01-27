@@ -27,7 +27,7 @@ export default function SignIn() {
     e.preventDefault();
     const userotp = { otp: otp };
     axios
-      .post("http://localhost:7005/verify-email", userotp)
+      .post("https://notes-app-2-v10w.onrender.com/verify-email", userotp)
       .then(() => {
         toast.success("Email Verified");
         setVerified(true);
