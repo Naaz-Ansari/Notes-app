@@ -17,7 +17,7 @@ app.use(cors());
 const _dirname = path.resolve();
 
 //Conneting to database
-mongoose.connect('mongodb+srv://naazansari172001:uKGKuH1O7KgXpd00@notes-app.a2wj4.mongodb.net/?retryWrites=true&w=majority&appName=Notes-App/test', {
+mongoose.connect('mongodb+srv://naazansari172001:uKGKuH1O7KgXpd00@notes-app.a2wj4.mongodb.net/?retryWrites=true&w=majority&appName=Notes-App', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     family: 4,
