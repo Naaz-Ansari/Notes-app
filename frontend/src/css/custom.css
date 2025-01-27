@@ -1,0 +1,37 @@
+fieldset {
+    all: unset; /* Resets all inherited styles */
+    display: block; /* Ensure fieldset is a block-level element */
+    margin: 0 0 0rem; /* Add some margin for spacing */
+    padding: 0em 0.75em 0.625em; /* Default padding */
+    border: 2px groove threedface; /* Default fieldset border */
+    border-radius: 0.5rem;
+  }
+  
+  legend {
+    all: unset; /* Resets all inherited styles */
+    display: block; /* Ensure legend is a block-level element */
+    padding: 0; /* Reset padding */
+    margin-bottom: 0em; /* Add some margin below legend */
+    font-size: 1rem; /* Default font size */
+    color: #9A9A9A;
+    font-weight: normal; /* Default weight */
+    text-align: left; /* Align text to the left */
+  }
+  
+
+  .sign-up-heading {
+    color: #232323;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif;
+  }
+
+  .sign-up-para {
+    color: #969696;
+  }
+
+  .signout-btn {
+    color: #367AFF;
+    padding-bottom: 0;
+  }
